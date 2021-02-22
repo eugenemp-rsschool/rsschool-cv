@@ -6,6 +6,8 @@
 
 ####Profile
 
+I'm an open-minded person with analytical thinking interested in advanced techniques and up-to-date tools for web development.
+
 ####Skills
 
 - HTML/CSS;
@@ -13,6 +15,10 @@
 - JavaScript;
 
 - Git;
+
+- Node.js
+
+- React
 
 ####Code examples
 
@@ -35,5 +41,5 @@ const isAnagram = function(strA, strB) {
 
 ####Special Skills
 
-- Native Russian
-- Intermediate English
+1. Native Russian
+2. Intermediate English
