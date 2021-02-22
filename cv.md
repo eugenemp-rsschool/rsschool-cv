@@ -16,6 +16,17 @@
 
 ####Code examples
 
+```
+//The function isAnagram(strA, strB) checks if entered words are anagram of each other
+const isAnagram = function(strA, strB) {
+
+  strA = strA.toLowerCase().split('').sort().join('');
+  strB = strB.toLowerCase().split('').sort().join('');
+
+  return strA === strB ? true : false;
+};
+```
+
 ####Work profile
 
 ####Education
