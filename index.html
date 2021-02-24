@@ -1,0 +1,141 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <title>HTML, CSS & Git</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="container">
+
+      <header>
+
+        <h1>EVGENY MILOSERDOV</h1>
+        <h2>FRONT-END TRAINEE</h2>
+
+      </header>
+
+       <main>
+
+        <article>
+          <h3>PROFILE</h3>
+
+          <p>
+            I'm an open-minded person with analytical thinking interested in advanced
+            techniques and up-to-date tools for web development.
+          </p>
+        </article>
+
+        <h3>CODE EXAMPLE</h3>
+
+        <!-- Here I've deleted few line leading tabs because <pre> tag 
+          includes it in final result and I don't know yet how to deal with it:) -->
+        <pre>
+          <code class="language-javascript">
+    /The function isAnagram() checks if entered words
+    //are anagram of each other
+
+    const isAnagram = function(strA, strB) {
+
+      strA = strA.toLowerCase().split('').sort().join('');
+      strB = strB.toLowerCase().split('').sort().join('');
+
+    return strA === strB ? true : false;
+    }
+          </code>
+        </pre>
+
+        <h3>EDUCATION</h3>
+
+        <p>Belarusian State University of Informatics and Radioelectronics</p>
+        <p>Bachelor's degree in medical electronics (2012 - 2018)</p>
+
+        <h3>WORK PROFILE</h3>
+
+        <div class="wrk-pos">
+          <p>ATLANT 2012-2020</p>
+          <p>Electronics engineer</p>
+        </div>
+
+        <div class="wrk-info">
+          <p>
+            Printing equipment service and integration, 
+          electronics hardware design and repair
+          </p>
+        </div>
+
+      </main>
+
+      <aside>
+
+        <img src="img/avatar.png" alt="Evgeny Miloserdov">
+
+        <h3>CONTACTS</h3>
+
+        <ul>
+          <li>
+            <p>Phone</p>
+            <p>+375-XX-XXX-XXXX</p>
+          </li>
+          <li>
+            <p>Email</p>
+            <p>phoenixlp91@mail.ru</p>
+          </li>
+        </ul>
+
+        <h3>SKILLS</h3>
+
+        <ul>
+          <li>HTML/CSS;</li>
+          <li>JavaScript;</li>
+          <li>Git;</li>
+          <li>Node.js</li>
+          <li>React</li>
+        </ul>
+
+        <h3>SPECIAL SKILLS</h3>
+
+        <ol>
+          <li>Native Russian</li>
+          <li>Intermediate English</li>
+          <li>Special knowledge of electronics</li>
+        </ol>
+
+      </aside>
+
+      <footer>
+
+        <div class="flex-container">
+          <div class="rs-logo">
+            <a href="https://rs.school/js/" target="_blank" title="RS School">
+              <img src="img/rs_school_js.svg" alt="RS School/JS Course">
+            </a>
+          </div>
+
+          <div class="ft-button">
+            <a href="https://github.com/eugenemp" target="_blank" title="My GitHub">
+              <img src="img/GitHub-Mark-64px.png" alt="GitHub">
+            </a>
+            <p>My GitHub</p>
+          </div>
+
+          <div class="ft-button">
+            <a href="https://t.me/eugenemp" target="_blank" title="@eugenemp">
+              <img src="img/telegram.png" alt="Telegram">
+            </a>
+            <p>@eugenemp</p>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>2021 @eugenemp</p>
+        </div>
+
+      </footer>
+
+    </div>
+  </body>
+</html>
