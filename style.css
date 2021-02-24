@@ -1,0 +1,184 @@
+/* General */
+
+html {
+  min-height: 100%;
+  background: linear-gradient(
+    #acafb3 50%,
+    #919191 75%,
+    #727272 85%,
+    #5f5f5f 100%
+  );
+}
+
+.container {
+  position: relative;
+  margin: 0px auto;
+  width: 80vh;
+  min-width: 800px;
+  height: 95vh;
+  min-height: 900px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-top: 1px solid #c4c4c4;
+  box-shadow: 0 10px 20px rgb(78, 78, 78);
+}
+
+header,
+main,
+aside,
+footer {
+  position: absolute;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+header,
+aside {
+  color: rgb(247, 247, 247);
+  background-color: rgb(50, 50, 50);
+}
+
+main,
+footer {
+  color: rgb(29, 29, 29);
+  background-color: rgb(231, 231, 231);
+}
+
+header {
+  width: 70%;
+  height: 25%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+main {
+  top: 25%;
+  width: 70%;
+  height: 65%;
+  padding-top: none;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+}
+
+aside {
+  left: 70%;
+  width: 30%;
+  height: 100%;
+  padding: 2%;
+}
+
+aside img {
+  width: 100%;
+  margin-bottom: 10%;
+  border-radius: 50%;
+}
+
+footer {
+  bottom: 0%;
+  width: 70%;
+  height: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+pre {
+  background-color: rgb(90, 90, 90);
+  border: 1px solid darkgrey;
+}
+
+.wrk-pos {
+  float: left;
+  width: 50%;
+}
+
+.wrk-info {
+  float: right;
+  width: 50%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.rs-logo {
+  width: 20%;
+  transition: filter 0.1s ease-in-out;
+}
+
+.rs-logo:hover {
+  filter: drop-shadow(0 0 5px rgb(68, 68, 68));
+}
+
+.ft-button {
+  width: 20%;
+  text-align: center;
+}
+
+.ft-button img {
+  height: 2rem;
+  border-radius: 50%;
+  transition: box-shadow 0.1s ease-in-out;
+}
+
+.ft-button img:hover {
+  box-shadow: 0 0 10px black;
+}
+
+.copyright {
+  position: absolute;
+
+  bottom: 0;
+  left: 5%;
+}
+
+/* Text decoration */
+
+p,
+li {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-shadow: black;
+}
+
+.wrk-pos p {
+  font-weight: 600;
+}
+
+.wrk-info p {
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.ft-button p {
+  margin: 0%;
+}
+
+ul,
+ol {
+  padding-left: 10%;
+  margin-bottom: 30%;
+}
+
+li {
+  line-height: 150%;
+}
+
+code {
+  font-size: 0.8rem;
+  color: beige;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  text-shadow: rgb(50, 50, 50);
+  border-bottom: 1px solid rgb(50, 50, 50);
+}
+
+aside h3 {
+  border-bottom: 1px solid rgb(231, 231, 231);
+}
