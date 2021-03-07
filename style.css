@@ -3,23 +3,21 @@
 html {
   min-height: 100%;
   background: linear-gradient(
-    #acafb3 50%,
-    #919191 75%,
-    #727272 85%,
-    #5f5f5f 100%
+    #999999 50%,
+    #7a7a7a 75%,
+    #636363 85%,
+    #444444 100%
   );
+  font-size: 1.6vh;
 }
 
 .container {
   position: relative;
   margin: 0px auto;
   width: 80vh;
-  min-width: 800px;
-  height: 95vh;
-  min-height: 900px;
+  height: 96vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border-top: 1px solid #c4c4c4;
-  box-shadow: 0 10px 20px rgb(78, 78, 78);
+  filter: drop-shadow(0 85vh 50px rgb(40, 40, 40));
 }
 
 header,
@@ -33,14 +31,14 @@ footer {
 
 header,
 aside {
-  color: rgb(247, 247, 247);
+  color: rgb(230, 230, 230);
   background-color: rgb(50, 50, 50);
 }
 
 main,
 footer {
-  color: rgb(29, 29, 29);
-  background-color: rgb(231, 231, 231);
+  color: rgb(30, 30, 30);
+  background-color: rgb(230, 230, 230);
 }
 
 header {
@@ -54,7 +52,6 @@ main {
   top: 25%;
   width: 70%;
   height: 65%;
-  padding-top: none;
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 2%;
@@ -86,21 +83,19 @@ pre {
   border: 1px solid darkgrey;
 }
 
-.wrk-pos {
+.wrk-left {
   float: left;
   width: 50%;
 }
 
-.wrk-info {
+.wrk-right {
   float: right;
   width: 50%;
 }
 
-.flex-container {
+.social-wrapper {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
 }
 
 .rs-logo {
@@ -109,27 +104,30 @@ pre {
 }
 
 .rs-logo:hover {
-  filter: drop-shadow(0 0 5px rgb(68, 68, 68));
+  filter: drop-shadow(0 0 5px rgb(78, 78, 78));
 }
 
-.ft-button {
+.social-button {
   width: 20%;
   text-align: center;
 }
 
-.ft-button img {
+.social-button img {
   height: 2rem;
   border-radius: 50%;
   transition: box-shadow 0.1s ease-in-out;
 }
 
-.ft-button img:hover {
+.social-button img:hover {
   box-shadow: 0 0 10px black;
+}
+
+.social-button:nth-child(2n + 1) img:hover {
+  box-shadow: 0 0 10px rgb(0, 130, 210);
 }
 
 .copyright {
   position: absolute;
-
   bottom: 0;
   left: 5%;
 }
@@ -140,19 +138,20 @@ p,
 li {
   font-size: 0.8rem;
   font-weight: 600;
-  text-shadow: black;
 }
 
-.wrk-pos p {
+.wrk-left p {
   font-weight: 600;
+  margin: 0;
 }
 
-.wrk-info p {
+.wrk-right p {
   font-size: 0.7rem;
   font-weight: 500;
+  margin: 0;
 }
 
-.ft-button p {
+.social-button p {
   margin: 0%;
 }
 
@@ -163,7 +162,7 @@ ol {
 }
 
 li {
-  line-height: 150%;
+  line-height: 180%;
 }
 
 code {
@@ -175,7 +174,6 @@ h1,
 h2,
 h3 {
   font-weight: 600;
-  text-shadow: rgb(50, 50, 50);
   border-bottom: 1px solid rgb(50, 50, 50);
 }
 
