@@ -1,0 +1,182 @@
+/* General */
+
+html {
+  min-height: 100%;
+  background: linear-gradient(
+    #999999 50%,
+    #7a7a7a 75%,
+    #636363 85%,
+    #444444 100%
+  );
+  font-size: 1.6vh;
+}
+
+.container {
+  position: relative;
+  margin: 0px auto;
+  width: 80vh;
+  height: 96vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  filter: drop-shadow(0 85vh 50px rgb(40, 40, 40));
+}
+
+header,
+main,
+aside,
+footer {
+  position: absolute;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+header,
+aside {
+  color: rgb(230, 230, 230);
+  background-color: rgb(50, 50, 50);
+}
+
+main,
+footer {
+  color: rgb(30, 30, 30);
+  background-color: rgb(230, 230, 230);
+}
+
+header {
+  width: 70%;
+  height: 25%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+main {
+  top: 25%;
+  width: 70%;
+  height: 65%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+}
+
+aside {
+  left: 70%;
+  width: 30%;
+  height: 100%;
+  padding: 2%;
+}
+
+aside img {
+  width: 100%;
+  margin-bottom: 10%;
+  border-radius: 50%;
+}
+
+footer {
+  bottom: 0%;
+  width: 70%;
+  height: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+pre {
+  background-color: rgb(90, 90, 90);
+  border: 1px solid darkgrey;
+}
+
+.wrk-left {
+  float: left;
+  width: 50%;
+}
+
+.wrk-right {
+  float: right;
+  width: 50%;
+}
+
+.social-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rs-logo {
+  width: 20%;
+  transition: filter 0.1s ease-in-out;
+}
+
+.rs-logo:hover {
+  filter: drop-shadow(0 0 5px rgb(78, 78, 78));
+}
+
+.social-button {
+  width: 20%;
+  text-align: center;
+}
+
+.social-button img {
+  height: 2rem;
+  border-radius: 50%;
+  transition: box-shadow 0.1s ease-in-out;
+}
+
+.social-button img:hover {
+  box-shadow: 0 0 10px black;
+}
+
+.social-button:nth-child(2n + 1) img:hover {
+  box-shadow: 0 0 10px rgb(0, 130, 210);
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+}
+
+/* Text decoration */
+
+p,
+li {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.wrk-left p {
+  font-weight: 600;
+  margin: 0;
+}
+
+.wrk-right p {
+  font-size: 0.7rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.social-button p {
+  margin: 0%;
+}
+
+ul,
+ol {
+  padding-left: 10%;
+  margin-bottom: 30%;
+}
+
+li {
+  line-height: 180%;
+}
+
+code {
+  font-size: 0.8rem;
+  color: beige;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  border-bottom: 1px solid rgb(50, 50, 50);
+}
+
+aside h3 {
+  border-bottom: 1px solid rgb(231, 231, 231);
+}
