@@ -1,6 +1,6 @@
 ## Evgeny Miloserdov
 
-**Phone number: +375-XX-XXX-XXXX**
+**Phone number: +375-29-250-5844**
 
 **Email: phoenixlp91@mail.ru**
 
@@ -10,15 +10,13 @@ I'm an open-minded person with analytical thinking interested in advanced techni
 
 #### Skills
 
-- HTML/CSS;
+- HTML/CSS
 
-- JavaScript;
+- JavaScript
 
-- Git;
+- Git
 
 - Node.js
-
-- React
 
 #### Code examples
 
@@ -35,11 +33,19 @@ const isAnagram = function(strA, strB) {
 
 #### Work profile
 
+**ATLANT 2012-2020**
+**Electronics engineer**
+
+Printing equipment service and integration,
+electronics hardware design and repair
+
 #### Education
 
-**Belarusian State University of Informatics and Radioelectronics, Bachelor's degree in medical electronics (2012 - 2018)**
+**Belarusian State University of Informatics and Radioelectronics**
+Bachelor's degree in medical electronics (2012 - 2018)
 
 #### Special Skills
 
 1. Native Russian
 2. Intermediate English
+3. Special knowledge of electronics
